@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
     width: 200,
     height: 200,
     alignSelf: "center",
-    borderRadius: 40,
+
   },
   btn: {
     borderRadius: 50,
