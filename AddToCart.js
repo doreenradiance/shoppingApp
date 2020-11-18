@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View,Image } from 'react-native';
 import Button from './components/Button';
+import RectangleIndicator from './components/RectangleIndicator';
 import RoundIndicator from './components/RoundIndicator';
 
 
@@ -27,7 +28,7 @@ export default function AddToCart() {
         <Text>Previous</Text>
         <View style={styles.indicators}>
         <RoundIndicator/>
-        <View style={styles.midInd}></View>
+        <RectangleIndicator/>
         <RoundIndicator/>
         </View>
         <Text>Skip</Text>
